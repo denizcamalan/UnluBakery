@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Unlu Bakery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <header class="head">
+        <img style="width: 20vh;" src="unlubakerycopy.png" alt="logo">
+        <p style="font-size: 40px;">Unlu Bakery<p>
+    </header>
     <hr>
-        <header>
-            <a href="index.html">Home</a>
-        </header>
+    <div class="starting">
+        <a href="index.html">Anasayfa</a>
+        <a href="">Biz Kimiz</a>
+        <a href="">İletişim</a>    
+    </div>
     <hr>
-    <div id="contents">
-        <h3>Odin Recipies Project</h3>
-        <h1>Unlu Bakery</h1>
-        <img src="unlubakerymainlogo.png" alt="logo">
-        <h2>Ekşi Mayalı Ekmeklerimiz</h2>
-        <hr>
-            <a href="recipes/lasagna.html">Keten Tohmlu</a>
-        <hr>
-        <hr>
-            <a href="recipes/sarimsakli.html">Sarimsakli</a>
-        <hr>    
+    <div class="container">
+        <div class="sidebar">
+            <ul class="none-x">
+                <li> Ekmeklerimiz </li>
+                <li><a href="recipes/ketentohumlu.html"> - Ekşi Mayalı Keten Tohmlu</a></li>
+                <li><a href="recipes/sarimsakli.html"> - Ekşi Mayalı Sarimsakli</a></li>
+            </ul>
+        </div>
+
+        <div class="grouppics">
+            <img src="./recipes/images/ekmekworkshop.jpg" alt="smitWorkshop">
+            <img src="./recipes/images/italyanworkshop.jpg" alt="italyanWorkshop">
+            <img src="./recipes/images/nedeneksimaya.jpg" alt="NedenEkşiMaya">
+            <img src="./recipes/images/nedenkaralahana.jpg" alt="NedenKaraLahana">    
+        </div>
+    </div>
+
+    <div class="footer">
+        unlubakery.com
     </div>
 </body>
 </html>
