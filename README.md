@@ -1,6 +1,5 @@
-# odin-recipes
-my first web design 
-starting 26.01.2022
-trying with VSC
-and the second changes
-yes! you can do that :)
+# Odin PROJECT: LANDING PAGE
+Unlu Bakery is my web project. 
+It a bakary site.
+Website language is Turkish.
+Photos and information have a permission and I recieved all insta:@unlubakery.
