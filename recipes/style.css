@@ -4,7 +4,7 @@ body {
     background-color: lightcyan
 }
 header {
-    background-color:lightskyblue;
+    background-color:lightblue;
     font-weight: bolder;
     color: snow;
     padding: 20px;
@@ -18,7 +18,7 @@ img  {
 }
 p , ol {
     font-weight: bold;
-    background-color: lightskyblue;
+    background-color: lightblue;
     padding: 20px;
 }
 .footer {
